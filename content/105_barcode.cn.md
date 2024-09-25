@@ -33,7 +33,9 @@ headers = {
     "X-API-KEY": api_key
 }
 
-image_base64 = base64.b64encode(image_file.read()).decode('utf-8')
+
+image_content = open(image_path, "rb").read()
+image_base64 = base64.b64encode(image_content).decode('utf-8')
 post_data = {
     "image_base64": image_base64
 }
