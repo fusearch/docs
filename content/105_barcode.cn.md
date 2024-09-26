@@ -16,7 +16,7 @@ curl -X POST 'https://api.fusearch.cn/ai/barcode' \
 -H 'accept: application/json' \
 -H 'Content-Type: application/json' \
 -H 'X-API-KEY: API-KEY' \
--d '{"image_b64": "BASE64_ENCODE_VALUE"}'
+-d '{"image_base64": "BASE64_ENCODE_VALUE"}'
 ```
 
 ```python
