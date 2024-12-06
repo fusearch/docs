@@ -71,9 +71,10 @@ print(response.json())
 
 | 参数           | 描述                                                         |
 |----------------|--------------------------------------------------------------|
-| `input_type`   | `字符串`，输入类型，支持`content`和`image_data` |
+| `input_type`   | `字符串`，输入类型，支持`content`、`image_data`和`audio` |
 | `content`      | `字符串`，文本内容，当`input_type`为`content`时必填 |
 | `image_data`   | `字符串`，base64编码的图像数据，当`input_type`为`image_data`时必填 |
+| `audio_data`   | `字符串`，base64编码的音频数据，当`input_type`为`audio`时必填 |
 
 ### 返回数据格式
 
